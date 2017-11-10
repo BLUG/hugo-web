@@ -140,33 +140,37 @@ disableRSS = false
     icon = "meetup"
     icon_pack = "fa"
     link = "//www.meetup.com/Bergen-Linux-and-BSD-User-Group/"
+    label = "MeetUp"
 
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
     link = "mailto:blug-kernel@blug.linux.no"
+    label = "e-mail"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
     link = "//twitter.com/bergenlug"
+    label = "Twitter"
 
   [[params.social]]
     icon = "facebook"
     icon_pack = "fa"
     link = "//www.facebook.com/BergenLUG/"
+    label = "Facebook"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/BLUG"
-
+    label = "GitHub"
 
   [[params.social]]
     icon = "comments"
     icon_pack = "fa"
     link = "https://webchat.freenode.net/?channels=%23blug&uio=d4"
-
+    label = "IRC"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
