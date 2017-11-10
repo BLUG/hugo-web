@@ -1,0 +1,7 @@
+<meta property="og:url" content="{{.Permalink}}" />
+{{ if not .IsHome }} <meta property="og:type" content="article" />{{ else }}<meta property="og:type" content="website" />{{ end }}
+<meta property="og:title" content="{{.Title}}" />
+<meta property="og:description" content="{{ if .Params.summary }}{{ printf "%s" .Params.summary }}{{ else if .Truncated }}{{ printf "%s" .Summary}}{{ end }}" />
+{{ with .Params.header.image }} {{ if eq (slicestr . 0 4) "http" }}<meta property="og:image" content="{{ . }}"/>{{ else }}<meta property="og:image" content="{{ "/img/" | absURL }}{{ . }}" />{{ end }}{{ end }}
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/css/blug.css"/>

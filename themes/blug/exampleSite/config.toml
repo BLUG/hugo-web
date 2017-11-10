@@ -1,7 +1,7 @@
-baseurl = "https://www.blug.linux.no/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-title = "Bergen Linux User Group"
-copyright = "&copy; 2017 BLUG"
-theme = "blug"
+baseurl = "/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+title = "Academic"
+copyright = "&copy; 2017 Your Name"
+theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -17,11 +17,8 @@ googleAnalytics = ""
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
-disableRSS = false
-
 [outputs]
-  home = [ "HTML", "CSS", "RSS", "Calendar" ]
-  taxonomy = [ "HTML", "RSS", "Calendar" ]
+  home = [ "HTML", "CSS" ]
 
 [blackfriday]
   hrefTargetBlank = true
@@ -36,20 +33,20 @@ disableRSS = false
   font = "default"
 
   # Your details.
-  name = "BLUG"
-  role = "Bergen Linux (and BSD) User Group"
+  name = "Lena Smith"
+  role = "Professor of Artificial Intelligence"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  #organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Stanford University", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "uploads/2014/09/blug_logo_hr-300x253.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "blug@blug.linux.no"
- #address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-#office_hours = ""
- # phone = "888 888 88 88"
- # skype = "echo123"
+  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "test@example.org"
+  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  phone = "888 888 88 88"
+  skype = "echo123"
   telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
@@ -57,11 +54,10 @@ disableRSS = false
 
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "2006-01-02"
+  date_format = "Jan 2, 2006"
 
   # Show estimated reading time for posts?
   reading_time = true
-  timezone = "Europe/Oslo"
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
@@ -114,8 +110,12 @@ disableRSS = false
   #   For multi-lingual sites, copy this block to each language section at the end of this file.
   publication_types = [
     'Uncategorized',  # 0
-    'Last Thursday',  # 1
-    'Lightening Talk',  # 2
+    'Conference proceedings',  # 1
+    'Journal',  # 2
+    'Work in progress',  # 3
+    'Technical report',  # 4
+    'Book',  # 5
+    'Book chapter'  # 6
   ]
 
   # Social/Academic Networking
@@ -137,35 +137,24 @@ disableRSS = false
   #   Full list: https://jpswalsh.github.io/academicons/
 
   [[params.social]]
-    icon = "meetup"
-    icon_pack = "fa"
-    link = "//www.meetup.com/Bergen-Linux-and-BSD-User-Group/"
-
-  [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:blug-kernel@blug.linux.no"
+    link = "mailto:test@example.org"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/bergenlug"
+    link = "//twitter.com/GeorgeCushen"
 
   [[params.social]]
-    icon = "facebook"
-    icon_pack = "fa"
-    link = "//www.facebook.com/BergenLUG/"
+    icon = "google-scholar"
+    icon_pack = "ai"
+    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/BLUG"
-
-
-  [[params.social]]
-    icon = "comments"
-    icon_pack = "fa"
-    link = "https://webchat.freenode.net/?channels=%23blug&uio=d4"
+    link = "//github.com/gcushen"
 
 
 # Navigation Links
@@ -178,10 +167,9 @@ disableRSS = false
   url = "#about"
   weight = 1
 
-
 [[menu.main]]
-  name = "Foredrag og møter"
-  url = "#talks"
+  name = "Publications"
+  url = "#publications_selected"
   weight = 2
 
 [[menu.main]]
@@ -190,13 +178,13 @@ disableRSS = false
   weight = 3
 
 [[menu.main]]
-  name = "Prosjekter"
+  name = "Projects"
   url = "#projects"
   weight = 4
 
 [[menu.main]]
-  name = "Presentasjoner"
-  url = "#publications"
+  name = "Teaching"
+  url = "#teaching"
   weight = 5
 
 [[menu.main]]
