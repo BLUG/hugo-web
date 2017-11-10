@@ -39,11 +39,6 @@ disableRSS = false
   name = "BLUG"
   role = "Bergen Linux (and BSD) User Group"
 
-  # Organizations/Affiliations.
-  #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  #organizations = [ { name = "Stanford University", url = "" } ]
-
-  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "uploads/2014/09/blug_logo_hr-300x253.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "blug@blug.linux.no"
  #address = "Building 1 Room 1, Stanford University, California, 90210, USA"
