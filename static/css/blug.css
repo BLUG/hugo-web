@@ -95,6 +95,7 @@ header h1 {
   line-height: 110%;
 }
 header h3.date {
+  white-space: initial;
   flex-basis: 100%;
   flex-grow:1;
 }
