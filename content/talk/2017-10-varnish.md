@@ -1,13 +1,14 @@
 +++
 date = "2017-10-26T18:30:00+02:00"
 end = "2017-10-26T20:00:00+02:00"
-title = "BLUG 26. Oktober 2017 - Lessons learned - 11 years of Varnish Cache"
+title = "Lessons learned – 11 years of Varnish Cache"
 abstract = "This talk is about how the world has changed and how the Varnish software and the Varnish project has changed as a result over the last 11 years."
 abstract_short = ""
 authors = ["Poul-Henning Kamp"]
 event = "BLUG Last Thursday"
 event_url = "http://meetu.ps/3dRZh3"
 location = "Bergen Offentlige Bibliotek"
+language = "en"
 
 selected = true
 math = true

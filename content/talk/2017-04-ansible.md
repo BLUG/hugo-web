@@ -1,7 +1,7 @@
 +++
 date = "2017-03-30T18:30:00+02:00"
 end = "2017-03-30T20:00:00+02:00"
-title = "BLUG 30. Mars 2017 – Automatisering med ansible"
+title = "Automatisering med ansible"
 abstract = "Ansible er eit enkelt og fleksibelt verktøy for å automatisere prosedyrer. Komplekse system med mange avhengigheter og forskjellige grensesnitt kan gjere det vanskelig å lage automatiske verktøy for å utføre vanlige oppgaver. Ansible er ett lett men kraftig verktøy for å automatisere slike miljø."
 abstract_short = ""
 slug = "blug-30-mars-2017-ansible"

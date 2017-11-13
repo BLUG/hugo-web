@@ -1,7 +1,7 @@
 +++
 date = "2017-06-01T18:30:00+02:00"
 end = "2017-06-01T20:00:00+02:00"
-title = "BLUG June 1st 2017 - Hands on Hacking"
+title = "Hands on Hacking"
 abstract = "Tired of endless powerpoints? Eyes bleeding and head about to explode from lectures? Simmer down and join in for a fun evening with demos, demos and demos! Chris will take you on a date through web applications and server hacking. He’ll demonstrate through hands-on demos how applications are broken into, shells are spawned, and pwnage is obtained. We’ll also cover some of the incident response and defensive techniques to counter many of the attacks demonstrated."
 abstract_short = ""
 authors = ["Chris Dale"]
@@ -9,6 +9,7 @@ slug = "blug-1-juni-2017-hands-on-hacking"
 event = "BLUG Last Thursday"
 event_url = "https://www.facebook.com/events/801524186664037/"
 location = "Bergen Offentlige Bibliotek"
+language = "en"
 
 selected = false
 math = true

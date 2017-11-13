@@ -73,8 +73,10 @@
   <link rel="canonical" href="{{ .Permalink }}">
 
   {{ partial "head_custom" . }}
-
+{{ if .Params.event }}
+<title>{{.Title}} | {{ .Params.event }} {{ .Date.Format "January 2 2006" }}</title>
+{{ else }}
   <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
-
+{{end}}
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">

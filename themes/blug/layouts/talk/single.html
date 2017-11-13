@@ -6,17 +6,19 @@
 
   <div class="article-container">
 
-    <div class="pub-title">
-      <h1 itemprop="name">{{ .Title }}</h1>
-      <span class="pub-authors" itemprop="author">
-        {{ with .Params.authors }}
-        {{ delimit . ", " }}
-        {{ end }}
-      </span>
-      <span class="pull-right">
-        {{ partial "share.html" . }}
-      </span>
-    </div>
+
+    <header>
+      <h3  class="date" itemprop="datePublished">{{.Params.event }} {{ .Date.Format "January 2006" }}</h3>
+      <h1>{{ .Title }}</h1>
+      <h3 class="autors">
+          {{ if .Params.authors }}
+            {{if eq .Params.language "en" }}with{{ else }}ved{{ end }} 
+            {{ with .Params.authors }}
+              {{ delimit . ", " }}
+            {{ end }}
+          {{ end }}
+          </h3>
+    </header>
 
     {{ if .Params.abstract }}
       <h3>{{ i18n "abstract" }}</h3>
