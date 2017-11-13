@@ -6,7 +6,7 @@ abstract_short = ""
 event = "BLUG Last Thursday"
 event_url = "http://meetu.ps/3cFvhr"
 location = "Bergen Offentlige Bibliotek"
-
+draft = true
 selected = false
 math = true
 
@@ -32,9 +32,7 @@ caption = ""
 
 Bergen (BSD and) Linux User Group fortsetter møteserien “Last Thursday”,
 med temaet
-<h1>SSL / TLS Revisited<small>
-ved Vegard Engen
-</small></h1>
+<h1 class="flex"><span>SSL / TLS Revisited</span><small>ved Vegard Engen</small></h1>
 <span class="_4n-j _3cht fsl" data-testid="event-permalink-details">TLS/SSL er de siste årene gått fra å være noe man kjører på steder hvor man har personlige opplysninger til en sikkerhetsmekanisme man anser som nødvendig på det meste av nettsteder.</span>
 
 <span class="_4n-j _3cht fsl" data-testid="event-permalink-details">Vegard Engen presenterer både teori og praktisk bruk av TLS for folk flest. Vil du sette opp TLS på din egen webserver? Lage din egen semi-profesjonelle CA?

@@ -34,7 +34,7 @@ caption = ""
 
 Bergen (BSD and) Linux User Group continues the meeting series “Last Thursday”,
 with the topic
-<h1>Lessons learned - 11 years of Varnish Cache<small>
+<h1 class="flex"><span>Lessons learned - 11 years of Varnish Cache</span><small>
 with Poul-Henning Kamp
 </small></h1>
 
