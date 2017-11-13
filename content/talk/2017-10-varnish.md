@@ -32,13 +32,6 @@ image = "varnishcache_rgb-gimp2-alpha.png"
 caption = ""
 
 +++
-
-Bergen (BSD and) Linux User Group continues the meeting series “Last Thursday”,
-with the topic
-<h1 class="flex"><span>Lessons learned - 11 years of Varnish Cache</span><small>
-with Poul-Henning Kamp
-</small></h1>
-
 Bergen Linux (and BSD) User group have the honor to invite Poul-Henning Kamp to Bergen for the monthly meetup in October.
 
 Remember 2006? You know - back when Pluto was still a planet? and nobody had heard of Edward Snowden.
