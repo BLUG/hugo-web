@@ -1170,16 +1170,3 @@ div.alert a:hover {
   border-color: #ebccd1;
 }
 
-
-h1.flex {
-  display:flex;
-  align-items: flex-end;
-  flex-wrap:wrap;
-}
-h1.flex span,
-h1.flex small {
-  white-space: nowrap;
-}
-h1.flex span {
-  flex-grow:1;
-}

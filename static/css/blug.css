@@ -54,3 +54,18 @@
   width: 100%;
   height: 100%;
 }
+
+
+
+h1.flex {
+  display:flex;
+  align-items: flex-end;
+  flex-wrap:wrap;
+}
+h1.flex span,
+h1.flex small {
+  white-space: nowrap;
+}
+h1.flex span {
+  flex-grow:1;
+}
