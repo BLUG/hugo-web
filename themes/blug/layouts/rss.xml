@@ -12,7 +12,7 @@
     <atom:link href="{{.URL}}" rel="self" type="application/rss+xml" />
     {{ range first 15 (where .Data.Pages "Type" "!=" "home") }}
     <item>
-      <title>{{ .Title }}</title>
+      <title>{{ if .Params.event }}{{ .Params.event }} {{ .Date.Format "2006-01-02" }}: {{.Title}}{{ else }}{{ .Title }}{{end}}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
