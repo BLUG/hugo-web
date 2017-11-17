@@ -22,6 +22,22 @@
   <link rel="icon" type="image/png" href="{{ "/img/icon.png" | relURL }}">
   <link rel="apple-touch-icon" type="image/png" href="{{ "/img/apple-touch-icon.png" | relURL }}">
   <link rel="canonical" href="{{ .Permalink }}">
+  <style>
+
+  @font-face {
+    font-family: 'robotolight';
+    src: url('/fonts/roboto_light/Roboto-Light-webfont.eot');
+    src: url('/fonts/roboto_light/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/roboto_light/Roboto-Light-webfont.woff2') format('woff2'),
+         url('/fonts/roboto_light/Roboto-Light-webfont.woff') format('woff'),
+         url('/fonts/roboto_light/Roboto-Light-webfont.ttf') format('truetype'),
+         url('/fonts/roboto_light/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+  </style>
   {{ partial "head_custom" . }}
 {{ if .Params.event }}
 <title>{{.Title}} | {{ .Params.event }} {{ .Date.Format "January 2 2006" }}</title>
