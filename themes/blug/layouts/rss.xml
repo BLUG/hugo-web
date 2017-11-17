@@ -20,10 +20,10 @@
       <description>{{ if .Params.event }}
       &lt;fieldset&gt;&lt;legend&gt;Event info&lt;/legend&gt;
       &lt;dl&gt;
-      &lt;dt&gt;&lt;strong&gt;Event series:&lt;/strong&gt;&lt;/dt&gt;&lt;dd&gt;{{ .Params.event }}&lt;/dd&gt;
+      &lt;dt&gt;&lt;strong&gt;Event series:&lt;/strong&gt;&lt;/dt&gt;&lt;dd&gt;{{ .Params.event | html  }}&lt;/dd&gt;
       &lt;dt&gt;&lt;strong&gt;Date and time:&lt;/strong&gt;&lt;/dt&gt;&lt;dd&gt;{{ .Date.Format "2006-01-02 15:04:05" }}&lt;/dd&gt;
-      &lt;dt&gt;&lt;strong&gt;Location:&lt;/strong&gt;&lt;/dt&gt;&lt;dd&gt;{{ .Params.location }}&lt;/dd&gt;
-      &lt;dt&gt;&lt;strong&gt;Topic:&lt;/strong&gt;&lt;/dt&gt;&lt;dd&gt;{{ .Title }}&lt;/dd&gt;
+      &lt;dt&gt;&lt;strong&gt;Location:&lt;/strong&gt;&lt;/dt&gt;&lt;dd&gt;{{ .Params.location | html }}&lt;/dd&gt;
+      &lt;dt&gt;&lt;strong&gt;Topic:&lt;/strong&gt;&lt;/dt&gt;&lt;dd&gt;{{ .Title | html  }}&lt;/dd&gt;
       &lt;dt&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;&lt;/dt&gt;&lt;dd&gt;{{ with .Params.authors }}
               {{ delimit . ", " }}
             {{ end }}&lt;/dd&gt;
