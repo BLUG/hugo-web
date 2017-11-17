@@ -17,7 +17,19 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Content | html }}</description>
+      <description>{{ if .Params.event }}
+      &lt;fieldset&gt;&lt;legend&gt;Event info&lt;/legend&gt;
+      &lt;dl&gt;
+      &lt;dt&gt;Event series:&lt;/dt&gt;&lt;dd&gt;{{ .Params.event }}&lt;/dd&gt;
+      &lt;dt&gt;Date and time:&lt;/dt&gt;&lt;dd&gt;{{ .Date.Format "2006-01-02 15:04:05" }}&lt;/dd&gt;
+      &lt;dt&gt;Location:&lt;/dt&gt;&lt;dd&gt;{{ .Params.location }}&lt;/dd&gt;
+      &lt;dt&gt;Topic:&lt;/dt&gt;&lt;dd&gt;{{ .Title }}&lt;/dd&gt;
+      &lt;dt&gt;Speaker:&lt;/dt&gt;&lt;dd&gt;{{ with .Params.authors }}
+              {{ delimit . ", " }}
+            {{ end }}&lt;/dd&gt;
+      &lt;/dl&gt;
+      &lt;/fieldset&gt;
+      {{end}}{{ .Content | html }}</description>
     </item>
     {{ end }}
   </channel>
