@@ -5,7 +5,7 @@ title = "Automatisering med ansible"
 abstract = "Ansible er eit enkelt og fleksibelt verktøy for å automatisere prosedyrer. Komplekse system med mange avhengigheter og forskjellige grensesnitt kan gjere det vanskelig å lage automatiske verktøy for å utføre vanlige oppgaver. Ansible er ett lett men kraftig verktøy for å automatisere slike miljø."
 abstract_short = ""
 slug = "blug-30-mars-2017-ansible"
-event = "BLUG Last Thursday"
+event = "BLUG"
 event_url = "https://www.facebook.com/events/801524186664037/"
 location = "Bergen Offentlige Bibliotek"
 
