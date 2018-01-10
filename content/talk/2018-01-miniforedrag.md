@@ -39,7 +39,7 @@ I januar kjører vi en runde med lightening-talks, eller miniforedrag som vi kal
 
 Kom og hold et miniforedrag for BLUG!
 
-Send en beskrivelse av ditt foredrag til [Bård](mailto:elzapp@gmail.com) eller [Knut](mailto:gnonthgol@gmail.com)
+Send en beskrivelse av ditt foredrag til [Bård (elzapp@gmail.com)](mailto:elzapp@gmail.com) eller [Knut (gnonthgol@gmail.com)](mailto:gnonthgol@gmail.com)
 
 <!-- 
 ## Video
