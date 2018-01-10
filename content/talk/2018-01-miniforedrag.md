@@ -5,7 +5,7 @@ title = "Miniforedrag"
 abstract = "I januar kjører vi en runde med lightening-talks, eller miniforedrag som vi kaller det. Vi legger opp til ca 8 foredrag, hver med en varighet på opptil 15 minutter"
 authors = ["BLUG"]
 event = "BLUG"
-event_url = "http://meetu.ps/3fr0Jb"
+event_url = "http://meetu.ps/e/DKjYX/4pNFx/g"
 location = "Media City Bergen - 'Pressekonferanse-rommet'"
 
 selected = true
