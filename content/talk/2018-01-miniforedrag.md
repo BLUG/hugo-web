@@ -30,6 +30,7 @@ image = ""
 caption = ""
 
 +++
+I januar kjører vi en runde med lightening-talks, eller miniforedrag som vi kaller det. Vi legger opp til ca 8 foredrag, hver med en varighet på opptil 15 minutter
 
 * Bruker du et verktøy du syns flere burde vite om?
 * Har du et prosjekt du har lyst til å fortelle om?
