@@ -59,7 +59,7 @@ Foredraget vil sannsynligvis bli filmet, og streamet live på YouTube.
 
 ## Program framover
 
-Dette er årets siste møte, første møtedato i 2018 er **25. Januar 2018**
+Dette er årets første møte, neste møtedato er **22. Februar 2018**
 
 Dersom du har et tema du gjerne vil fortelle om, eller vet om noen som kan holde foredrag for oss er det bare å si ifra.
 
