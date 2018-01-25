@@ -1,7 +1,7 @@
 +++
 date = "2018-01-25T18:30:00+01:00"
 end = "2018-01-25T20:30:00+0100"
-title = "Miniforedrag"
+title = "[AVLYST] Miniforedrag"
 abstract = "I januar kjører vi en runde med lightening-talks, eller miniforedrag som vi kaller det. Vi legger opp til ca 8 foredrag, hver med en varighet på opptil 15 minutter"
 authors = ["BLUG"]
 event = "BLUG"
@@ -30,6 +30,9 @@ image = ""
 caption = ""
 
 +++
+
+<strong>Vi er dessverre nødt til å avlyse månedens foredrag</strong>
+
 I januar kjører vi en runde med lightening-talks, eller miniforedrag som vi kaller det. Vi legger opp til ca 8 foredrag, hver med en varighet på opptil 15 minutter
 
 * Bruker du et verktøy du syns flere burde vite om?
