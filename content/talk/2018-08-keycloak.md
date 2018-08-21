@@ -12,7 +12,7 @@ location = "Media City Bergen - 'Pressekonferanse-rommet'"
 selected = true
 math = true
 
-draft=true
+draft=false
 
 url_pdf = ""
 url_slides = ""
@@ -34,16 +34,15 @@ caption = ""
 
 +++
 
-Stian Thorgersen (https://github.com/stianst) comes from RedHat to speak about KeyCloak (https://www.keycloak.org/)
-More info will be made available at a later stage
+Keycloak er en open source Identity and Access Managagement løsning bygget for moderne applikasjoner.
 
-Add authentication to applications and secure services with minimum fuss. No need to deal with storing users or authenticating users. It's all available out of the box.
+Med Keycloak er det enkelt å sikre applikasjoner med lite til ingen kode. Keycloak tilbyr også mange funksjoner som 2FA, SSO, identity brokering, user federation og mye mer.
 
-You'll even get advanced features such as User Federation, Identity Brokering and Social Login.
+I denne presentasjonen vil du lære mer om Keycloak og hvordan du kan enkelt sikre dine applikasjoner. Du vil lære om en del av funksjonene som Keycloak leverer og hvordan disse kan gjøre det enkelt for deg å levere på behov rundt autentikasjon og autorisasjon. Du vil også få se en demonstrasjon av Keycloak samt applikasjoner sikret med Keycloak.
 
 ## Stian Thorgersen
 
-
+Stian Thorgersen er en av to co-foundere bak Keycloak. Stian jobber for tiden hos Red Hat som project lead på Keycloak. I tiden før Red Hat jobbet han hos Arjuna Technologies for å utvikle en cloud federation platform.
 
 
 Vi legger som tidligere opp til at den formelle, disiplinerte faglige
