@@ -26,7 +26,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">{{ i18n "date" }}</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            {{ .Date.Format "Mon Jan 2 2006 15:04:05" }}
+            {{ .Date.Format "Mon Jan 2 2006 15:04:05" }} - {{ (time .Params.end).Format "15:04:05" }}
           </div>
         </div>
       </div>
