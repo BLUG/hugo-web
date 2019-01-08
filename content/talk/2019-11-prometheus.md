@@ -30,7 +30,7 @@ url = "https://www.meetup.com/Bergen-Linux-and-BSD-User-Group/events/256593163/"
 #url = "https://www.facebook.com/events/723039484486800/"
 
 [header]
-image = "https://imgs.xkcd.com/comics/compiling.png"
+image = "compile.png"
 caption = ""
 
 +++
