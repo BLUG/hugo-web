@@ -7,7 +7,7 @@ abstract = "Kryss-kompilering med GCC på godt og vondt"
 abstract_short = ""
 authors = ["Christer Solskogen"]
 event = "BLUG"
-event_url = ""
+event_url = "https://www.meetup.com/Bergen-Linux-and-BSD-User-Group/events/257889778/"
 location = "Media City Bergen - 'Pressekonferanse-rommet'"
 
 selected = true
@@ -22,7 +22,7 @@ url_video = ""
 
 [[url_custom]]
 name = "MeetUp"
-url = "https://www.meetup.com/Bergen-Linux-and-BSD-User-Group/events/256593163/"
+url = "https://www.meetup.com/Bergen-Linux-and-BSD-User-Group/events/257889778/"
 
 
 #[[url_custom]]
