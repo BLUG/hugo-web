@@ -1,0 +1,86 @@
+Bergen (BSD and) Linux User Group fortsetter møteserien "Last Thursday",
+
+   Fredag 26. april 2018 kl 17.00 **Merk ukedag og dato**
+   Media City Bergen
+   Lars Hilles gate 30, 5008 Bergen[1],
+
+   med temaet
+
+  Fighting for free video - technical tactics and war stories from the FOSS audio and video codec frontier
+
+    ved Christopher 'Monty' Montgomery
+
+Månedens møte arrangeres i samarbeid med Norwegian Unix User Group (NUUG), som har møte med
+samme emne og foredragsholder
+
+    Onsdag 24. april 2019 kl. 17.00
+    Store Studio, NRK, Marienlyst, Oslo
+    Dette møtet blir også livesteamet, se https://www.nuug.no/aktiviteter/20190424-foss-video/
+
+    First they came for ARC. Free software replaced it. Then they came
+    for GIF. Free software replaced it. Then they came for MP3. What
+    on Earth did they expect Free software to do?
+
+    MPEG played it a little smarter than SEA or CompuServe. Threatened
+    lawsuits never happened; they simply hung in the air like the
+    Sword of Damocles, poisoning the market waters. As intended, this
+    boxed out the Free MP3 encoder projects, the people directly
+    responsible for MP3's growing success. And the rest of the world
+    mostly continued treating MP3 like a 'free' format and mostly
+    didn't get sued. Mostly.
+
+    But the Free codec hackers did not forget, and thus far we choose
+    not to forgive.
+
+    I present recollections, technical asides, and unsubstantiable
+    gossip in an intentionally one-sided history of the codec
+    wars. From the early days of LAME to the dawning story of the new
+    AV1, come hear about the tactics and maneuvers of Free codec
+    development.
+
+    Christopher (Monty) Montgomery has been professionally active in
+    audio and compression since 1993. He founded Xiph.Org in 1994 and
+    began the Vorbis codec in 1998, shortly after Fraunhofer IIS and
+    Thomson Multimedia threatened legal action against FOSS MP3
+    encoder projects.
+
+    Over time Monty and Xiph.Org have developed or contributed to
+    other Free and Open Source codecs such as Speex, FLAC, Theora,
+    Daala, CELT, Opus, and AV1. Monty's other software includes
+    CDParanoia and Postfish, and he's contributed to Audacity and
+    Cinelerra in the service of musical theater, video, and stage
+    production.
+
+    Monty holds a B.S. in Electrical Engineering and Computer Science
+    with a concentration in music from the Massachusetts Institute of
+    Technology and a M.Eng. in Computer Engineering from Tokyo
+    Institute of Technology. He is currently a research engineer at
+    the Mozilla Corporation, where he works on digital media
+    standards.  Vi legger som tidligere opp til at den formelle,
+    disiplinerte faglige delen av møtet vil være fullført ca kl 20.00,
+    med overgang til mer uformelle aktiviteter og langsom forflytting
+    til egnet serveringssted (Henrik) for fagøl og annet sosialt.
+
+BLUG har vanligvis møter siste torsdag i hver måned utenom juni, juli
+og desember.  Stedet er om ikke annet annonseres spesifikt et egnet
+lokale i Media City Bergen. Foreløpig møteplan for de neste 12
+månedene ser slik ut (tema for møtene annonseres etterhvert):
+
+Mai 	   Torsdag 23/5 2019 
+August     Torsdag 29/8 2019
+September  Torsdag 26/9 2019
+Oktober	   Torsdag 31/10 2019
+November   Torsdag 28/11 2019
+Januar	   Torsdag 30/1	2020
+Februar	   Torsdag 27/2	2020
+Mars	   Torsdag 26/3 2020
+April	   Torsdag 30/4 2020
+
+Spørsmål kan rettes til avsender, <mailto:peter@bsdly.net> eller til
+blug-listen <mailto:blug@blug.linux.no>.
+
+Vil du melde deg på eller av blug eller blug-announce? Se
+informasjonen om listene på <http://blug.linux.no/mailinglists>.
+
+[1] kartreferanse <https://is.gd/5uacBE>
+
