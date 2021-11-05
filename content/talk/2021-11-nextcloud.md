@@ -46,6 +46,10 @@ controls what data and application becomes more important every day.
 And governments care more and more about Digital Sovereignty and how
 this effects to future of countries.
 
+
+<div class="video"><iframe src="https://www.youtube.com/embed/uySHVSO1ZVg" frameborder="0" allowfullscreen></iframe></div>
+
+
 The GDPR was suppose to give people more control over their data.
 But now that the European Court of Justice declared the US CloudAct
 incompatible with the GDPR the questions rises how data should be
@@ -85,9 +89,6 @@ https://www.nuug.no/innmelding.shtml.
 
 
 
-## Video
-
-<div class="video"><iframe src="https://www.youtube.com/embed/uySHVSO1ZVg" frameborder="0" allowfullscreen></iframe></div>
 
 ## Praktisk
 Denne gangen er vi i **Pressekonferanse-rommet** på **Media City Bergen**, rommet befinner seg i første etasje, mot tårn 1 og har kapasitet til 44 gjester. Vi har rommet til disposisjon til kl 20:30. 
